@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.clix.clixoerwebsite.Listeners"/>
+</listeners>
+	<test thread-count="5" name="Test Sample">
+		<classes>
+			<class name="com.clix.clixoerwebsite.AppTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="TestHomepage">
+		<classes>
+			<class name="com.clix.clixoerwebsite.HomePage" />
+		</classes>
+	</test>
+	<test thread-count="5" name="TestHomepagemaths">
+		<classes>
+			<class name="com.clix.clixoerwebsite.CheckMathsCheckboxContent" />
+		</classes>
+	</test>
+	<!-- <test thread-count="5" name="TestHomepageLinks">
+		<classes>
+			<class name="com.clix.clixoerwebsite.HomePageLinks" />
+		</classes>
+	</test> 
+	<test thread-count="5" name="Test Contactus">
+		<classes>
+			<class name="com.clix.clixoerwebsite.ValidateContactus" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test About">
+		<classes>
+			<class name="com.clix.clixoerwebsite.AboutPageTest" />
+		</classes>
+	</test> -->
+ <!-- Test -->
+</suite> <!-- Suite -->
