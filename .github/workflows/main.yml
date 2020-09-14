@@ -3,6 +3,11 @@ name: Telegram Notifications
 on:
   issues:
     types: [opened, reopened, deleted, closed]
+  project:
+  project_card:
+  project_column:
+  
+  
 
 jobs:
   notify:
