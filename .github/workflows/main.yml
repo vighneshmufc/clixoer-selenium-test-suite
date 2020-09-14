@@ -4,8 +4,12 @@ on:
   issues:
     types: [opened, reopened, deleted, closed]
   project:
-  project_card:
-  project_column:
+  issue_comment:
+  commit_comment:
+  pull_request:
+    branches: [master]
+
+  
   
   
 
