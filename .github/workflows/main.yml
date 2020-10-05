@@ -3,10 +3,6 @@ name: Telegram Notifications
 on:
   issues:
     types: [opened, reopened, deleted, closed]
-  project:
-  issue_comment:
-  pull_request:
-    
 
   
   
